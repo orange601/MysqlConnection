@@ -31,9 +31,12 @@ jdbc:mysql://ip:port/TestDB?characterEncoding=UTF-8&serverTimezone=UTC
 jdbc.url=jdbc:mysql://127.0.0.1:3306/DBName?characterEncoding=UTF-8&serverTimezone=UTC
 ````
 
-The reference to entity “serverTimezone” must end with the ‘;’ delimiter.  에러가 발생할 경우 & 대신에 &amp;  사용
+
+````xml
+#The reference to entity “serverTimezone” must end with the ‘;’ delimiter.  에러가 발생할 경우 & 대신에 &amp;  사용
 
 jdbc:mysql://ip:port/TestDB?characterEncoding=UTF-8&amp;serverTimezone=UTC
+````
 
 [출처]
 
