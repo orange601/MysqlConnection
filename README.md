@@ -24,6 +24,7 @@ serverTimeZone을 설정한다
 jdbc:mysql://ip:port/TestDB?characterEncoding=UTF-8&serverTimezone=UTC
 
 나같은 경우는 properties 파일에 저장했으니까
+
 jdbc.url=jdbc:mysql://127.0.0.1:3306/DBName?characterEncoding=UTF-8&serverTimezone=UTC
 
 The reference to entity “serverTimezone” must end with the ‘;’ delimiter.  에러가 발생할 경우 & 대신에 &amp;  사용
