@@ -19,9 +19,11 @@ serverTimeZone을 설정한다
 
 
 **Solution**
-1. config.xml 에서 url에 serverTimezone 추가
+- config.xml 에서 url에 serverTimezone 추가
 
+````propeties
 jdbc:mysql://ip:port/TestDB?characterEncoding=UTF-8&serverTimezone=UTC
+````
 
 나같은 경우는 properties 파일에 저장했으니까
 
