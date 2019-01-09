@@ -2,7 +2,7 @@
 Mysql 연동시 주의사항
 
 
-1. Mysql 연동시 mysql-connector-java 버전 5.1.X 이후 버전 부터 KST 타임존을 인식하지 못하는 경우가 발생한다.
+# 1. Mysql 연동시 mysql-connector-java 버전 5.1.X 이후 버전 부터 KST 타임존을 인식하지 못하는 경우가 발생한다.
 
 그럴땐 jdbc.url=jdbc:mysql://127.0.0.1:3306/DBName?characterEncoding=UTF-8&serverTimezone=UTC
 serverTimeZone을 설정한다
@@ -41,3 +41,8 @@ jdbc:mysql://ip:port/TestDB?characterEncoding=UTF-8&amp;serverTimezone=UTC
 [출처]
 
 https://yenaworldblog.wordpress.com/2018/01/24/java-mysql-%EC%97%B0%EB%8F%99%EC%8B%9C-%EB%B0%9C%EC%83%9D%ED%95%98%EB%8A%94-%EC%97%90%EB%9F%AC-%EB%AA%A8%EC%9D%8C/
+
+
+
+# 2.Driver Class Name 설정
+1.DriverClassName : com.mysql.cj.jdbc.Driver
