@@ -44,5 +44,7 @@ https://yenaworldblog.wordpress.com/2018/01/24/java-mysql-%EC%97%B0%EB%8F%99%EC%
 
 
 
-# 2.Driver Class Name 설정
-1.DriverClassName : com.mysql.cj.jdbc.Driver
+# 2.Driver Class Name 조심 
+버전에 따른 Classname이 
+- com.mysql.jdbc.Driver
+- com.mysql.cj.jdbc.Driver
