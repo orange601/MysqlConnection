@@ -44,7 +44,7 @@ https://yenaworldblog.wordpress.com/2018/01/24/java-mysql-%EC%97%B0%EB%8F%99%EC%
 
 
 
-# 2.Driver Class Name 조심 
-버전에 따른 Classname이 
-- com.mysql.jdbc.Driver
-- com.mysql.cj.jdbc.Driver
+# 2. `COM.MYSQL.JDBC.DRIVER’ THIS IS DEPRECATED
+하위버전 호환성 문제인줄 알았지만 그냥 디프리케이트. 
+- 변경전 - com.mysql.jdbc.Driver
+- 변경후 - com.mysql.cj.jdbc.Driver
